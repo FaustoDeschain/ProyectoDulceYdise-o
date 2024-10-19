@@ -1,0 +1,170 @@
+html,body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    justify-content: space-between;
+    background-color:#dfdfdf;
+   
+
+}
+
+/*-----------------------------------------------*/
+/*-----------------------HEADER------------------*/
+/*-----------------------------------------------*/
+/*-----------------------general-----------------*/
+
+header{
+   
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 2% 0 2%;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    /* background-color: brown; */
+}
+.logo img{
+    height: 80px;
+}
+
+.logo-contenedor-texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: violet; */
+}
+
+.logo-texto{
+    margin:2px 20px;
+}
+
+.boton-inicio-sesion{
+    display: flex;
+
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+header ul a{
+    text-decoration: none; 
+    margin: 10px;    
+}
+
+.boton-inicio-sesion{
+    font-weight:800;
+}
+
+.boton-inicio-sesion a{
+    text-decoration: none;
+    margin: 10px;
+
+}
+
+ /*-----------------------------------------------*/
+/*------------------MAIN--------------------------*/
+/*-----------------------------------------------*/
+/*-----------------general-----------------------*/
+
+main{
+    
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    height: 100%;
+    margin: 2%;
+}
+
+
+/*-----------------------------------------------*/
+/*-----------------FORMULARIO--------------------*/
+/*-----------------------------------------------*/
+/*-----------------formulario.html---------------*/
+
+.formulario-body{
+    
+    background-image: url("img/cupcakes.png") ;
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+    background-size: cover;
+    
+}
+
+.formulario-main{
+     opacity: 0.8;
+     margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.formulario{
+   
+    display: flex;
+    width: 680px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px 5px;
+    /* background-color: yellow; */
+    border-radius: 60px;
+}
+.button{
+    align-self: center;
+    width: 300px;
+    border-radius: 5px;
+    height: 30px;
+    margin: 5px;
+}
+.formulario input{
+    height: 30px;
+    border-radius: 10px;
+    
+}
+
+.formulario h2{
+    align-self: center;
+}
+
+/*----------------------------------------------*/
+/*-------------------FOOTER---------------------*/
+/*----------------------------------------------*/
+/*------------------general---------------------*/
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;     /* Centrado horizontal */
+    background-color: rgb(31, 41, 55);
+    height: 20%;
+    color: white;
+}
+
+/*------------------------------------------------*/
+/*------------------ABOUT US----------------------*/
+/*------------------------------------------------*/
+/*------------------aboutus.html------------------*/
+
+.about-body{
+    background-image: url("img/cukis.png") ;
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+    background-size: cover;
+    
+}
+
+.about{
+    opacity: 0.8;
+}
+.aboutus-div{
+   
+    width: 80%;
+    
+}
