@@ -22,12 +22,14 @@ header{
     align-items: center;
     padding: 0 2% 0 2%;
 }
+/*---------LOGO-----------------*/
 
 .logo{
     display: flex;
     align-items: center;
     /* background-color: brown; */
 }
+
 .logo img{
     height: 80px;
 }
@@ -37,36 +39,49 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background-color: violet; */
 }
 
 .logo-texto{
     margin:2px 20px;
 }
 
-.boton-inicio-sesion{
-    display: flex;
 
-}
 
-header ul {
+/*---------Nav List-----------------*/
+.nav-lista {
     display: flex;
     list-style: none;
 }
 
-header ul a{
+.boton-lista-nav{
     text-decoration: none; 
-    margin: 10px;    
+    margin: 10px;   
+    color: rgb(31, 41, 55) ; 
 }
 
-.boton-inicio-sesion{
-    font-weight:800;
+.boton-lista-nav:hover{
+    font-weight:bolder;
+    font-size:larger;
+    color: chocolate;
 }
 
-.boton-inicio-sesion a{
+
+
+/*---------Botones inicio-----------------*/
+
+
+.boton-inicio-a{
     text-decoration: none;
-    margin: 10px;
+    font-weight:600;
+    color: #dfdfdf;
+    background-color: rgb(46, 61, 83); 
+    padding: 10px;   
+    border-radius: 12px;
+}
 
+.boton-inicio-a:hover{
+    font-weight: 700;
+    color: chocolate;
 }
 
  /*-----------------------------------------------*/
@@ -75,7 +90,6 @@ header ul a{
 /*-----------------general-----------------------*/
 
 main{
-    
     border-radius: 60px;
     display: flex;
     justify-content: center;
@@ -84,7 +98,11 @@ main{
     margin: 2%;
 }
 
-
+.boton-inicio{
+    margin: 5px;
+    border-radius: 15px;
+    height: 40px;
+}
 /*-----------------------------------------------*/
 /*-----------------FORMULARIO--------------------*/
 /*-----------------------------------------------*/
