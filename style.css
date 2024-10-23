@@ -6,7 +6,6 @@ html,body{
     justify-content: space-between;
     background-color:#dfdfdf;
    
-
 }
 
 /*-----------------------------------------------*/
@@ -15,13 +14,14 @@ html,body{
 /*-----------------------general-----------------*/
 
 header{
-   
+
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content:space-between;
     align-items: center;
     padding: 0 2% 0 2%;
 }
+
 /*---------LOGO-----------------*/
 
 .logo{
@@ -30,7 +30,7 @@ header{
     /* background-color: brown; */
 }
 
-.logo img{
+.imgLogo{
     height: 80px;
 }
 
@@ -92,9 +92,9 @@ header{
 main{
     border-radius: 60px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     background-color: white;
-    height: 100%;
     margin: 2%;
 }
 
@@ -110,9 +110,9 @@ main{
 
 .formulario-body{
     
-    background-image: url("img/cupcakes.png") ;
+    /* background-image: url("img/cupcakes.png") ; */
     background-repeat: no-repeat;
-    background-attachment:fixed ;
+    background-attachment:fixed;
     background-size: cover;
     
 }
@@ -156,33 +156,83 @@ main{
 /*-------------------FOOTER---------------------*/
 /*----------------------------------------------*/
 /*------------------general---------------------*/
-footer {
+
+
+.footer-contenedor{
+    display: flex;
+    background-color: rgb(31, 41, 55);
+    justify-content: space-around;
+    align-items: center;
+    color: #dfdfdf;
+}
+
+.footer-slogan{
     display: flex;
     flex-direction: column;
-    align-items: center;     /* Centrado horizontal */
-    background-color: rgb(31, 41, 55);
-    height: 20%;
-    color: white;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(22, 90, 90); */
+    margin: 5px;
+    padding: 5px;
 }
+
+.footer-slogan h2{
+    margin: 0;
+}
+
+.footer-slogan p{
+    margin: 5px;
+}
+.footer-redes{
+    width: 90px;
+    display: flex;
+
+    /* background-color: rgb(164, 164, 14); */
+    justify-content: space-between;
+
+}
+.footer-legal{
+    margin: 5px;
+    /* background-color: rgb(94, 32, 151); */
+}
+
+
+.footer-redes-logo{
+    height: 30px;
+
+}
+
 
 /*------------------------------------------------*/
 /*------------------ABOUT US----------------------*/
 /*------------------------------------------------*/
 /*------------------aboutus.html------------------*/
 
-.about-body{
-    background-image: url("img/cukis.png") ;
-    background-repeat: no-repeat;
-    background-attachment:fixed ;
-    background-size: cover;
+.about-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:20px;
     
 }
 
-.about{
-    opacity: 0.8;
+.about-texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+    
+    margin: 0;
+    border-radius: 50px;
 }
-.aboutus-div{
-   
-    width: 80%;
+
+.about-imagenes{
+    display:flex ;
+    /* background-color: bisque; */
+    justify-content: center;
+}
+
+.about-img{
+    padding: 5px;
+    border-radius: 30px;
     
 }
